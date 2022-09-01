@@ -1,0 +1,8 @@
+<p>base of type: {{ type }} works!</p>
+<div *ngFor="let elem of data">
+  {{ type.toUpperCase() }}: {{ elem }}
+</div>
+<hr>
+<div *ngIf="loaded">
+  <ng-container #UIEditionView></ng-container>
+</div>
